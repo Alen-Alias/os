@@ -10,7 +10,7 @@ void display(int avail[],int nop,int nor)
     printf("\nprocess\tAlloc\tMax  \tavail\tNeed\n");
     for(i=0;i<nop;i++)
     {
-        printf("%d\t",i);
+        printf("P%d\t",i);
         for(j=0;j<nor;j++)
             printf("%d ",p[i].alloc[j]);
         printf("\t");
