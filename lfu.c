@@ -104,41 +104,5 @@ Frame: 1[3] 2[2] 3[1]
 Frame: 1[3] 2[2] 7[1]
 
 Total Page Faults: 10
-Total Page Hits: 3
-PS C:\Users\Basil Alen\Desktop\alenfiles\os>
-
-
-Frame: 1[3] 2[2] 6[1]
-Frame: 1[3] 2[2] 4[1]
-Frame: 1[3] 2[2] 3[1]
-Frame: 1[3] 2[2] 7[1]
-
-Total Page Faults: 10
-Total Page Hits: 3
-PS C:\Users\Basil Alen\Desktop\alenfiles\os>
-Frame: 1[3] 2[2] 6[1]
-Frame: 1[3] 2[2] 4[1]
-Frame: 1[3] 2[2] 3[1]
-Frame: 1[3] 2[2] 7[1]
-
-Total Page Faults: 10
-Total Page Hits: 3
-Frame: 1[3] 2[2] 6[1]
-Frame: 1[3] 2[2] 4[1]
-Frame: 1[3] 2[2] 3[1]
-Frame: 1[3] 2[2] 7[1]
-
-Total Page Faults: 10
-Frame: 1[3] 2[2] 6[1]
-Frame: 1[3] 2[2] 4[1]
-Frame: 1[3] 2[2] 3[1]
-Frame: 1[3] 2[2] 4[1]
-Frame: 1[3] 2[2] 3[1]
-Frame: 1[3] 2[2] 3[1]
-Frame: 1[3] 2[2] 7[1]
-
-Total Page Faults: 10
-Total Page Faults: 10
-Total Page Hits: 3
-Total Page Hits: 3
+Total Page Hits: 3
 */
