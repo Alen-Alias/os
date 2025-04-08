@@ -74,7 +74,7 @@ void issafe(int avail[],int nop,int nor)
 }
 void main()
 {
-    int i,j,avail[5],req[5],nop,nor,reqp;
+    int i,j,avail[5],tempavail[5],req[5],nop,nor,reqp;
     printf("Enter the number of process : ");
     scanf("%d",&nop);
     printf("Enter the number of resourses : ");
@@ -101,7 +101,16 @@ void main()
         scanf("%d",&avail[i]);
     }
     display(avail,nop,nor);
+    for(i=0;i<nor;i++)
+    {
+        tempavail[i]=avail[i];
+    }
+
     issafe(avail,nop,nor);
+    for(i=0;i<nor;i++)
+    {
+        avail[i]=tempavail[i];
+    }
     printf("\nEnter the requesting process : ");
     scanf("%d",&reqp);
     printf("Enter the request : ");
