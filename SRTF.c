@@ -63,8 +63,6 @@ void main() {
             strcpy(d[num].name, p[min].name);
             d[num].st = i;
             prev = min;
-            p[min].rt--;
-            i++;
         }
             p[min].rt--;
             i++;
