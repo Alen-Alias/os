@@ -107,6 +107,10 @@ void main()
     }
 
     issafe(avail,nop,nor);
+for(i=0;i<nop;i++)
+{
+p[i)].status=0;
+}
     for(i=0;i<nor;i++)
     {
         avail[i]=tempavail[i];
